@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E8605886293EF99A00D0DC14 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8605885293EF99A00D0DC14 /* ConfettiSwiftUI */; };
+		E86A2D052A588037002DB587 /* preview.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E86A2D042A588037002DB587 /* preview.jpeg */; };
+		E86A2D072A58803C002DB587 /* irl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E86A2D062A58803C002DB587 /* irl.jpeg */; };
 		E8B859BE293D613F003ECE1D /* Basketball Score Counter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E8B859BD293D613F003ECE1D /* Basketball Score Counter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E8B859C3293D613F003ECE1D /* Basketball_Score_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B859C2293D613F003ECE1D /* Basketball_Score_CounterApp.swift */; };
 		E8B859C5293D613F003ECE1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B859C4293D613F003ECE1D /* ContentView.swift */; };
@@ -40,6 +42,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E86A2D022A587E73002DB587 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E86A2D042A588037002DB587 /* preview.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = preview.jpeg; path = ../../../../Downloads/preview.jpeg; sourceTree = "<group>"; };
+		E86A2D062A58803C002DB587 /* irl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = irl.jpeg; path = ../../../../Downloads/irl.jpeg; sourceTree = "<group>"; };
 		E8B859B7293D613F003ECE1D /* Basketball Score Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball Score Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B859BD293D613F003ECE1D /* Basketball Score Counter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basketball Score Counter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B859C2293D613F003ECE1D /* Basketball_Score_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball_Score_CounterApp.swift; sourceTree = "<group>"; };
@@ -60,9 +65,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E86A2D032A587FA7002DB587 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E86A2D062A58803C002DB587 /* irl.jpeg */,
+				E86A2D042A588037002DB587 /* preview.jpeg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		E8B859B0293D613F003ECE1D = {
 			isa = PBXGroup;
 			children = (
+				E86A2D032A587FA7002DB587 /* img */,
+				E86A2D022A587E73002DB587 /* README.md */,
 				E8B859C1293D613F003ECE1D /* Basketball Score Counter Watch App */,
 				E8B859B8293D613F003ECE1D /* Products */,
 			);
@@ -181,6 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86A2D052A588037002DB587 /* preview.jpeg in Resources */,
+				E86A2D072A58803C002DB587 /* irl.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
